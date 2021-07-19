@@ -1,0 +1,105 @@
+body
+{
+	
+}
+.row
+{
+	width: 100%;
+	background-color: yellow;
+}
+h1
+{
+	text-align: center;
+	color: orange;
+  	text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+}
+img	
+{
+	width: 100px;
+	height: 100px;
+	border: gray 1px solid;
+	border-radius: 25%;
+	margin: 20px;
+	float: left;
+	transition: width 2s;
+
+}
+.item_details
+{
+margin: 20px;
+color: maroon;
+
+}
+.MainP
+{
+	border: dotted 1px;
+	position: relative;
+	width: 100px;
+	background-color: whitesmoke;
+	float: left;
+	box-sizing: border-box;
+}
+.TitleP:hover {
+ 
+}
+img:hover
+{
+	width: 110px;
+}
+.TitleP
+{
+	position:absolute;
+	top:-15px;
+	right: -15px;
+	width: 60px;
+	border: solid 1px ;
+	border-radius: 15px;
+	margin: 0;
+	padding: 0;
+	box-sizing:  border-box;
+	text-align: center;
+	
+}
+.TitleP.Beef
+{
+	background-color: pink;
+}
+.TitleP.Chicken
+{
+	background-color: gray;
+}
+.TitleP.Sushi
+{
+	background-color: azure;
+}
+@media  (min-width: 992px)
+{
+	.col-lg-4 
+	{
+		width:31%;
+		margin: 10px;
+	}
+}
+@media  (min-width: 768px) and ( max-width: 991px)
+{
+
+	.col-md-6 
+	{
+		width:47%;
+		margin: 10px;
+	}
+	.col-md-12 
+	{
+		width:98%;
+	}
+}
+@media  (max-width: 767px )
+{
+
+	.col-sm-12 
+	{
+		width:96%;
+		margin: 10px;
+	}
+
+}
